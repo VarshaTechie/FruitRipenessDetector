@@ -411,13 +411,13 @@ if image is None:
     c1, c2, c3, c4 = st.columns([1, 2, 2, 1])
     with c2:
         if st.button("🍎 Sample Ripe", use_container_width=True):
-            with open("dataset/train/RipeApple/RipeApple (1).jpg", "rb") as f:
+            with open("samples/ripe.jpg", "rb") as f:
                 st.session_state.uploaded_file_bytes = f.read()
                 st.session_state.uploaded_file_name = "sample_ripe.jpg"
             st.rerun()
     with c3:
         if st.button("🗑️ Sample Rotten", use_container_width=True):
-            with open("dataset/train/RottenApple/RottenApple (1).jpg", "rb") as f:
+            with open("samples/rotten.jpg", "rb") as f:
                 st.session_state.uploaded_file_bytes = f.read()
                 st.session_state.uploaded_file_name = "sample_rotten.jpg"
             st.rerun()
