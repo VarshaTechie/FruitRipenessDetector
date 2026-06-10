@@ -1,5 +1,5 @@
 # Fruit Ripeness Detection 🍎
-ripe-check.streamlit.app
+https://ripe-check.streamlit.app/
 
 A deep learning powered web application built with Streamlit and TensorFlow that instantly detects whether a fruit is **Ripe**, **Rotten**, or **Unripe**.
 
