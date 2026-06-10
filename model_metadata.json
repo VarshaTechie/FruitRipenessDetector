@@ -1,0 +1,16 @@
+{
+    "class_names": [
+        "Ripe",
+        "Rotten",
+        "Unripe"
+    ],
+    "image_size": [
+        224,
+        224
+    ],
+    "class_mapping": {
+        "0": "Ripe",
+        "1": "Rotten",
+        "2": "Unripe"
+    }
+}

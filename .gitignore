@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+__pycache__/
+
+# Datasets
+dataset/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+*.db
