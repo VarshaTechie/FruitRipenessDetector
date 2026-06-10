@@ -13,7 +13,7 @@ A deep learning powered web application built with Streamlit and TensorFlow that
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR-GITHUB-REPO-URL>
+   git clone https://github.com/VarshaTechie/FruitRipenessDetector.git
    cd FruitRipenessDetection
    ```
 
