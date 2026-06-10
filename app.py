@@ -396,19 +396,8 @@ else:
 # ─── Main Interface ───
 if image is None:
     # Upload Zone
-    with st.container():
-        st.markdown("""
-        <div class="upload-card">
-          <div class="glass-card" style="padding:1.5rem 1.5rem 2rem; text-align:center;">
-            <div style="font-size:2.4rem; margin-bottom:0.2rem;">📸</div>
-            <div style="font-weight:800; font-size:1.15rem; color:#111827;">Upload a fruit image</div>
-            <div style="margin-top:0.25rem; color:#6b7280; font-weight:500;">JPG / JPEG / PNG</div>
-          </div>
-        </div>
-        """, unsafe_allow_html=True)
-    
     uploaded_file = st.file_uploader(
-        "Browse Files",
+        "Upload a fruit image",
         type=["jpg", "jpeg", "png"],
         key="file_uploader"
     )
